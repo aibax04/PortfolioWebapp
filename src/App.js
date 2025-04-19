@@ -40,22 +40,22 @@ const App = () => {
       longDescription: "NeuroGAN represents a breakthrough in generative adversarial networks, combining the latest advances in neural style transfer with transformer-based text understanding. This project achieved state-of-the-art results in the COCO-GEN benchmark and was featured at the International Conference on Machine Learning.",
       tags: ["PyTorch", "GANs", "NLP", "Computer Vision"],
       image: "/api/placeholder/800/600",
-      link: "https://github.com/aibad/neurogan",
+      link: "https://github.com/aibax04/neurogan",
       highlights: [
         "99.7% user satisfaction rating in blind comparison tests",
         "3x faster inference than competitive models",
         "Novel attention mechanism for multi-modal input processing"
       ],
-      technologies: ["Python", "PyTorch", "CUDA", "Docker", "React (visualization dashboard)"]
+      technologies: ["Python", "PyTorch", "Langchain", "Docker", "React (visualization dashboard)"]
     },
     {
       id: 2,
-      title: "QuantML: Financial Portfolio Optimization",
-      description: "An AI-powered system that leverages reinforcement learning to create optimized investment portfolios with superior risk-adjusted returns.",
+      title: "YourTravelBuddy: Travelling AI Assistant",
+      description: "An AI-powered system that leverages reinforcement learning to create optimized Travel Assistant based on your needs.",
       longDescription: "Developed during a high-stakes fintech hackathon, QuantML revolutionizes portfolio management by implementing a multi-agent reinforcement learning system that continuously adapts to market conditions. The system incorporates alternative data sources and sentiment analysis to predict market movements beyond traditional technical indicators.",
-      tags: ["Reinforcement Learning", "Financial Analysis", "Time Series", "Cloud Computing"],
-      image: "/api/placeholder/800/600",
-      link: "https://github.com/aibad/quantml",
+      tags: ["Machine Learning", "generative ai", "flask", "Pinecone"],
+      image: "https://www.chatbotguide.org/travel-bots",
+      link: "https://github.com/aibax04/YourTravelBuddyChatbot",
       highlights: [
         "First place winner at GlobalFinHack 2024",
         "Outperformed market benchmarks by 17.3% in backtesting",
@@ -65,18 +65,18 @@ const App = () => {
     },
     {
       id: 3,
-      title: "VizDash: Interactive ML Visualization",
-      description: "A revolutionary dashboard that transforms complex machine learning metrics into intuitive interactive visualizations for non-technical stakeholders.",
-      longDescription: "VizDash bridges the gap between data scientists and business stakeholders by transforming complex model metrics and predictions into beautiful, interactive visualizations. The system features real-time model monitoring, automated anomaly detection, and customizable reporting interfaces that adapt to different user expertise levels.",
+      title: "MEDviz: Interactive ML Medical Chatbot",
+      description: "A revolutionary dashboard that transforms your medical querries into guided solutions",
+      longDescription: "VizDash bridges the gap between medical professional and a common man by answering complex health related issues into easy and guided explanation ",
       tags: ["Data Visualization", "UX/UI", "WebGL", "Real-time Analytics"],
       image: "/api/placeholder/800/600",
-      link: "https://github.com/aibad/vizdash",
+      link: "https://github.com/aibax04/MEDICAL-CHATBOT",
       highlights: [
         "Reduced decision time by 78% in user studies",
         "Modular architecture supporting 15+ ML frameworks",
         "Featured in UX Design Awards 2024"
       ],
-      technologies: ["React", "Three.js", "D3.js", "WebGL", "GraphQL", "Node.js", "Redis"]
+      technologies: ["Generative ai", "pytorch", "flask backend", "html", "css", "Node.js", "vector DB"]
     },
     {
       id: 4,
@@ -91,7 +91,7 @@ const App = () => {
         "Seamless integration with 7 enterprise knowledge management systems",
         "Open-source core with 1,200+ GitHub stars"
       ],
-      technologies: ["Python", "Hugging Face", "PyTorch", "Neo4j", "FastAPI", "Redis", "React"]
+      technologies: ["Python", "HuggingFace hub", "PyTorch", "Neo4j", "FastAPI", "Redis", "React"]
     }
   ]);
   
@@ -99,7 +99,7 @@ const App = () => {
   const skills = [
     { 
       name: "Machine Learning", 
-      level: 95, 
+      level: 88, 
       icon: <Brain size={24} />,
       description: "Expert in supervised, unsupervised, and reinforcement learning techniques. Experienced with neural networks, decision trees, and ensemble methods.",
       libraries: ["TensorFlow", "PyTorch", "scikit-learn", "Keras"]
@@ -133,7 +133,7 @@ const App = () => {
       libraries: ["Apache Spark", "Airflow", "Kafka", "MongoDB"]
     },
     { 
-      name: "Hackathon Champion", 
+      name: "Hackathon Competitor", 
       level: 95, 
       icon: <Award size={24} />,
       description: "Multiple-time winner of prestigious hackathons with expertise in rapid prototyping and innovative solution design.",
@@ -143,37 +143,50 @@ const App = () => {
   
   // Timeline data
   const timeline = [
-    {
-      year: "2024",
-      title: "Lead AI Engineer",
-      company: "TechNova Solutions",
-      description: "Leading a team of 5 engineers in developing cutting-edge AI solutions for enterprise clients."
-    },
+    
+
     {
       year: "2022",
-      title: "ML Research Scientist",
-      company: "DataMinds Institute",
-      description: "Conducted research in generative models and published 3 papers in top-tier conferences."
+      title: "finished my Schooling",
+      company: "st. joseph institute",
+      description: "honoured with the prestigious award of Student of the Year with a score of 96%."
     },
+    
     {
-      year: "2020",
-      title: "Front-end Developer",
-      company: "UX Innovations",
-      description: "Designed and implemented user interfaces for data-intensive applications."
+      year: "2023",
+      title: "Btech",
+      company: "University School of Automation And Robotics",
+      description: "Getting Admission into one of the top Tech schools in india."
     },
+
     {
-      year: "2018",
-      title: "Master's Degree",
-      company: "Carnegie Mellon University",
-      description: "MSc in Machine Learning with specialization in Computer Vision."
-    }
+      year: "2024",
+      title: "Generative ai ",
+      company: "forbidden india",
+      description: "worked with this prestigious company as a backend ai developer."
+    },
+
+    {
+      year: "2024",
+      title: "Machine Learning ",
+      company: "Summer Program",
+      description: "Ineuron Machine Learning Program"
+    },
+
+    {
+      year: "2025",
+      title: "Vertex Ai and Prompt engineering ",
+      company: "Google GEN AI Summer program",
+      description: "Specialisation in Google Cloud and vector formation"
+    },
+    
   ];
   
   // Testimonials data
   const testimonials = [
     {
-      name: "Sarah Johnson",
-      role: "CTO at DataStream",
+      name: "Vishwa",
+      role: "undergrad at IIT Delhi",
       text: "Aibad's machine learning solutions transformed our business. The models he built increased our prediction accuracy by 40% and significantly reduced operational costs.",
       avatar: "/api/placeholder/100/100"
     },
@@ -547,15 +560,15 @@ const App = () => {
                 transition={{ delay: 1.1, duration: 0.8 }}
               >
                 <div className="stat">
-                  <h3>20+</h3>
+                  <h3>8+</h3>
                   <p>ML Projects</p>
                 </div>
                 <div className="stat">
-                  <h3>15+</h3>
+                  <h3>10+</h3>
                   <p>Hackathons</p>
                 </div>
                 <div className="stat">
-                  <h3>6+</h3>
+                  <h3>2+</h3>
                   <p>Years Experience</p>
                 </div>
               </motion.div>
@@ -620,7 +633,7 @@ const App = () => {
             <motion.div 
               className="about-image"
               initial={{ opacity: 0, x: -50 }}
-              whileInView={{ opacity: 1, x: 0 }}
+              whileInView={{ opacity: 100, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
@@ -635,7 +648,7 @@ const App = () => {
                 transition={{ delay: 0.5 }}
                 whileHover={{ scale: 1.05, rotate: 5 }}
               >
-                <h3>6+</h3>
+                <h3>2+</h3>
                 <p>Years of Experience</p>
               </motion.div>
             </motion.div>
@@ -729,7 +742,7 @@ const App = () => {
                 transition={{ delay: 1 }}
               >
                 <a 
-                  href="/api/placeholder/800/1000" 
+                  href="https://avatars.githubusercontent.com/u/138279452?s=400&u=446f9eb3bbd95243a8d6c57fe44e3713995bf7b6&v=4" 
                   target="_blank" 
                   rel="noreferrer"
                   className="download-button"
@@ -937,7 +950,7 @@ const App = () => {
             transition={{ delay: 0.5 }}
           >
             <a 
-              href="https://github.com/aibad" 
+              href="https://github.com/aibax04" 
               target="_blank" 
               rel="noreferrer"
               className="github-button"
@@ -990,22 +1003,22 @@ const App = () => {
                 
                 <div className="contact-item">
                   <MapPin size={20} />
-                  <span>San Francisco, CA</span>
+                  <span>New Delhi, India</span>
                 </div>
                 
                 <div className="contact-item">
                   <Github size={20} />
-                  <a href="https://github.com/aibad" target="_blank" rel="noreferrer">github.com/aibad</a>
+                  <a href="https://github.com/aibax04" target="_blank" rel="noreferrer">github.com/aibad</a>
                 </div>
                 
                 <div className="contact-item">
                   <Linkedin size={20} />
-                  <a href="https://linkedin.com/in/aibad" target="_blank" rel="noreferrer">linkedin.com/in/aibad</a>
+                  <a href="https://www.linkedin.com/in/mohd-aibad-9127592a5/" target="_blank" rel="noreferrer">linkedin.com/in/aibad</a>
                 </div>
                 
                 <div className="contact-item">
                   <Twitter size={20} />
-                  <a href="https://twitter.com/aibad" target="_blank" rel="noreferrer">twitter.com/aibad</a>
+                  <a href="https://x.com/chillatlas" target="_blank" rel="noreferrer">twitter.com/aibad</a>
                 </div>
               </div>
               
@@ -1106,13 +1119,13 @@ const App = () => {
             <div className="footer-social">
               <h4>Connect</h4>
               <div className="social-icons">
-                <a href="https://github.com/aibad" target="_blank" rel="noreferrer">
+                <a href="https://github.com/aibax04" target="_blank" rel="noreferrer">
                   <Github size={20} />
                 </a>
-                <a href="https://linkedin.com/in/aibad" target="_blank" rel="noreferrer">
+                <a href="https://www.linkedin.com/in/mohd-aibad-9127592a5/" target="_blank" rel="noreferrer">
                   <Linkedin size={20} />
                 </a>
-                <a href="https://twitter.com/aibad" target="_blank" rel="noreferrer">
+                <a href="https://x.com/chillatlas" target="_blank" rel="noreferrer">
                   <Twitter size={20} />
                 </a>
                 <a href="mailto:hello@aibad.dev">
